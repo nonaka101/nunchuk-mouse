@@ -250,7 +250,7 @@ Wii ヌンチャクを 1 つ準備してください。
 
 下図は Arduino Leonardo のものなので、違うボードを利用している場合は、配線横に記載したピン場所を参考に接続してください。
 
-<img src="/nonaka101/nunchuk-mouse/raw/main/README-images/cabling-01.png" alt="Arduino Leonardo のボード SDA, SCL, 3.3V, GND にジャンプワイヤを配線" max-width="640px">
+<img src="https://github.com/nonaka101/nunchuk-mouse/blob/main/README-images/cabling-01.png" alt="Arduino Leonardo のボード SDA, SCL, 3.3V, GND にジャンプワイヤを配線" max-width="640px">
 
 信号線としての 2 本（`SDA`[^9], `SCL`[^10]）と、電源としての 2 本（`3,3V`, `GND`）の計 4 本で、コントローラーとの通信を行います。
 
@@ -265,7 +265,7 @@ Wii ヌンチャクを 1 つ準備してください。
 
 単純に検証するだけなら、下図のように直接ワイヤと接続端子を繋げれば OK です。
 
-<img src="/nonaka101/nunchuk-mouse/raw/main/README-images/cabling-02.png" alt="コントローラー端子に直接ジャンプワイヤを配線" max-width="240px">
+<img src="https://github.com/nonaka101/nunchuk-mouse/blob/main/README-images/cabling-02.png" alt="コントローラー端子に直接ジャンプワイヤを配線" max-width="240px">
 
 これで、Arduino とコントローラー間の配線は完了です。
 
@@ -579,7 +579,7 @@ const int ACCEL_CENTER_Z = 512;
 
 中心値については `ENABLE_DEBUG_MODE` を有効化し、スティックが天井方向を指すよう持つ（下図参照）ことで `X`, `Y` を調べることができます。
 
-<img src="/nonaka101/nunchuk-mouse/raw/main/README-images/nunchuck_data-00.png" alt="通常時のコントローラー" max-width="240px">
+<img src="https://github.com/nonaka101/nunchuk-mouse/blob/main/README-images/nunchuck_data-00.png" alt="通常時のコントローラー" max-width="240px">
 
 上図は `Z` の中心位置ではないため、左右または上下に 90°傾けることで調べることができます。
 
