@@ -159,7 +159,7 @@ HID をサポートしている一般的な OS（Windows, Linux, Mac[^1] など�
 
 下図は開発段階の検証機ですが、このような簡素な構成でも動かすことができます。
 
-![Arduino Lepnardo, ヌンチャクコントローラー, USBケーブル, ジャンプワイヤで接続している状態。画像ではこれらに加えブレッドボードに LED と抵抗を接続している](./README-images/prototype-01.png)
+![Arduino Leonardo, ヌンチャクコントローラー, USBケーブル, ジャンプワイヤで接続している状態。画像ではこれらに加えブレッドボードに LED と抵抗を接続している](./README-images/prototype-01.png)
 
 ### Arduino IDE
 
@@ -167,7 +167,7 @@ HID をサポートしている一般的な OS（Windows, Linux, Mac[^1] など�
 
 IDE は [公式ホームページ](https://www.arduino.cc/en/software/)から取得することが可能です。導入に関しての詳細は、公式サイトを参照ください。
 
-[^5]: IDE（Integrated Development Environmen）：統合開発環境、必要となる様々な機能をまとめた開発環境のこと
+[^5]: IDE（Integrated Development Environment）：統合開発環境、必要となる様々な機能をまとめた開発環境のこと
 
 ### Arduinoなどの開発ボード
 
@@ -381,7 +381,7 @@ C ボタンでマウス左ボタン、Z ボタンでマウス中ボタンとし�
 
 その状態で Arduino に書き込むと、**コントローラーがマウスとして機能しなくなる**代わりに**各種情報をシリアルモニタ上に出力**するようになります。
 
-出力内容を確認するためには、IDE 画面左上にある「シリアルモニタ」をクリックします。すると下図のように、各種情報を確認できるようになります。
+出力内容を確認するためには、IDE 画面右上にある「シリアルモニタ」をクリックします。すると下図のように、各種情報を確認できるようになります。
 
 ![IDE のシリアルモニタをクリックし、シリアル通信を表示](./README-images/ide-debug-03.png)
 
@@ -805,4 +805,3 @@ Copyright (C) 2024 nonaka101
 
 - [ベクトルのなす角度の計算（2次元、3次元）と検算ツール - 具体例で学ぶ数学](https://mathwords.net/bekutorunasukaku)
 - [ベクトルのなす角 | 金沢工業大学](https://w3e.kanazawa-it.ac.jp/math/category/vector/henkan-tex.cgi?target=/math/category/vector/naiseki-wo-fukumu-kihonsiki.html&pcview=2)
-下記は 本書を作成するにあたり、参考にした資料等になります。
